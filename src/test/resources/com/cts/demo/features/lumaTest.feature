@@ -7,7 +7,7 @@ Feature: Luma Test
     And enter "<username>" in the email field
     And enter "<password>" in the password field
     And I click the "Sign In" button
-    Then I should see the page with title "Home Page"
+    Then The page with title "Home Page" is displayed
 
     Examples: 
       | username          | password |
