@@ -8,7 +8,6 @@ Feature: Luma Test
     And enter "<password>" in the password field
     And I click the "Sign In" button
     Then The page with title "Home Page" is displayed
-
     Examples: 
       | username          | password |
       | autotest@test.com | Test@123 |
