@@ -1,5 +1,5 @@
 @requires_browser
-Feature: Adopting puppies
+Feature: Luma Test
 
   Scenario Outline: Login to luma site
     Given I am on the luma site
